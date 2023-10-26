@@ -10,6 +10,11 @@
 
 
 /* GENERAL */
+
+html {
+    font-family: 'Fredoka', sans-serif;
+}
+
 .MAIN-CONTAINER {
     margin: 0 auto;
     max-width: 1200px;
@@ -21,7 +26,10 @@
 
 
 /* HEADER */
-
+h1 {
+    color: fuchsia;
+    margin: 30px 470px
+}
 
 
 

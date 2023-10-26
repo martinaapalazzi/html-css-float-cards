@@ -7,10 +7,7 @@
 
 
 
-
-
 /* GENERAL */
-
 html {
     font-family: 'Fredoka', sans-serif;
 }
@@ -19,8 +16,6 @@ html {
     margin: 0 auto;
     max-width: 1200px;
 }
-
-
 
 
 
@@ -34,7 +29,11 @@ h1 {
 
 
 
-
-
-
 /* MAIN */
+.columns {
+    width: 270px;
+    height: 70px;
+    background-color: black;
+    float: left;
+    margin: 50px;
+}

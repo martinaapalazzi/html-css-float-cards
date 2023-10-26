@@ -6,7 +6,6 @@
 }
 
 
-
 /* GENERAL */
 html {
     font-family: 'Fredoka', sans-serif;
@@ -14,16 +13,15 @@ html {
 
 .MAIN-CONTAINER {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 1000px;
 }
-
-
 
 
 /* HEADER */
 h1 {
     color: fuchsia;
-    margin: 30px 470px
+    text-align: center;
+    margin: 20px 0 30px;
 }
 
 p {
@@ -32,29 +30,34 @@ p {
 
 
 /* MAIN */
-.columns {
-    width: 270px;
-    height: 70px;
+.cards {
+    width: 280px;
+    height: 80px;
     background-color: black;
     float: left;
-    margin: 60px;
-    /*text-align: center;*/
-
+    margin: 15px;
+    margin: 20px 15px;
+    padding: 0;
 }
 
 img {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     float: left;
 }
 
 .info {
     color: white;
     float: left;
-    padding: 8px;
+    margin: 5px;
 }
 
-
+a { 
+    float: left;
+    margin: 0;
+    color: aqua;
+    text-decoration: none;
+}
 
 
 
